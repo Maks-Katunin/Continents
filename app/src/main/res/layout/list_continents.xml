@@ -7,13 +7,17 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
-        android:textColor="@color/red"
         android:id="@+id/tv_continent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/red"
+        android:textSize="@dimen/page_dimens_2x"
+        android:textStyle="italic"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:text="Africa"/>
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Africa" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

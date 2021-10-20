@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ContinentAdapter adapter = new ContinentAdapter();
+    private final ContinentAdapter adapter = new ContinentAdapter();
     private ArrayList<Continents> list = new ArrayList<>();
 
     @Override
@@ -40,9 +40,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void createList() {
-        list.add(new Continents("Africa",1));
-        list.add(new Continents("America",2));
-        list.add(new Continents("Europe",3));
-        list.add(new Continents("Asia",4));
+        list.add(new Continents("Eurasia",1));
+        list.add(new Continents("Africa",2));
+        list.add(new Continents("North America",3));
+        list.add(new Continents("South America",4));
+        list.add(new Continents("Australia",5));
+        list.add(new Continents("Antarctica",6));
     }
 }

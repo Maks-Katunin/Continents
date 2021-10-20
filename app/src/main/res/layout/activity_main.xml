@@ -16,6 +16,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:listitem="@layout/list_continents" />
+        tools:listitem="@layout/list_countries" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
